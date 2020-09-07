@@ -25,7 +25,7 @@
               <label for="description">Description</label>
               <input type="text" class="form-control {{ $errors->has('description') ? 'is-invalid' : '' }}" id="description" placeholder="Enter description" name="description" value="{{$quiz->description}}">
               @error('description')
-              <aside class="invalid-feedback">
+              <aside class="invalid-feedback"> 
                 {{ $message }}
               </aside>
               @enderror

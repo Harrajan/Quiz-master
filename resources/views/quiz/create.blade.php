@@ -7,7 +7,7 @@
       @if(Auth::user()->role == "Edit" )
       <article class="card">
         <header class="card-header">
-          <h4>Create a quiz<h4>
+          <h4>Create a quiz<h4> 
         </header>
         <main class="card-body">
           <form action="/quiz/store" method="post">

@@ -31,7 +31,7 @@
                       {{ $message }}
                     </aside>
                     @enderror
-                  </div>
+                  </div> 
                   <div class="col-sm-2">
                     <div class="form-check mt-2">
                       <input class="form-check-input" type="radio" name="correct_answer" id="correct_answer1" value="answer1" {{ $question->answers[0]->correct ? 'checked' : '' }}>

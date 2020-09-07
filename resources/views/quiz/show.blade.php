@@ -27,7 +27,7 @@
                       <section class="dropdown-menu">
                         <a class="dropdown-item" href="/questions/{{ $question->id }}/edit">Edit</a>
                         <form class="form-inline" action="/questions/{{ $question->id }}/delete" method="post">
-                          @csrf
+                          @csrf 
                           @method('DELETE')
                           <button type="submit" class="dropdown-item text-danger">Delete</button>
                         </form>
